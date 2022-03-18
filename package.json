@@ -4,7 +4,8 @@
   "description": "��#\u0000 \u0000p\u0000c\u0000a\u0000t\u0000\r\u0000 \u0000",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/orhanurullah/pcat/issues"
   },
-  "homepage": "https://github.com/orhanurullah/pcat#readme"
+  "homepage": "https://github.com/orhanurullah/pcat#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
